@@ -1,4 +1,5 @@
 import { render, screen } from "@testing-library/react-native";
+
 import { Title } from "~/components/title/title";
 
 describe("Hello", () => {
