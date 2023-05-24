@@ -1,21 +1,12 @@
 import { FC } from "react";
-import { StyleSheet, View } from "react-native";
 
 import { Title } from "~/components/title/title";
+import { LoginContainer } from "~/pages/login/login.styles";
 
 export const Login: FC = () => {
   return (
-    <View style={styles.container}>
+    <LoginContainer>
       <Title text="Pizza Planet" />
-    </View>
+    </LoginContainer>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});

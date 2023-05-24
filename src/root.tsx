@@ -1,11 +1,11 @@
 import { FC } from "react";
-import { StyledGuideProvider } from "react-styled-guide";
+import { ThemeProvider } from "styled-components/native";
 
-import initialStyleGuide from "~/style/style-guide";
 import { Login } from "~/pages/login/login";
+import themeInstance from "~/style/style-guide";
 
 export const Root: FC = () => (
-  <StyledGuideProvider value={initialStyleGuide}>
+  <ThemeProvider theme={themeInstance}>
     <Login />
-  </StyledGuideProvider>
+  </ThemeProvider>
 );
