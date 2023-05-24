@@ -1,7 +1,7 @@
 import { ReactElement } from "react";
 
-import { Login } from "~/pages/login/login";
+import { Root } from "~/root";
 
 export default function App(): ReactElement {
-  return <Login />;
+  return <Root />;
 }

@@ -32,7 +32,7 @@ module.exports = {
     "@typescript-eslint/no-misused-promises": "off",
     "@typescript-eslint/consistent-type-definitions": "off",
     "@typescript-eslint/consistent-type-imports": "off",
-    quotes: ["error", "double"],
+    quotes: ["error", "double", { allowTemplateLiterals: true, avoidEscape: true }],
     semi: ["error", "always"],
     "comma-dangle": ["error", "only-multiline"],
     "max-lines-per-function": ["error", { max: 120 }],
