@@ -6,7 +6,7 @@ import {
   Input,
   LoginContainer,
   Logo,
-} from "~/pages/login/login.styles";
+} from "~/screens/login/login.styles";
 import LogoImage from "~/assets/img/logo.png";
 
 export const Login: FC = () => {

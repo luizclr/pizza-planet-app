@@ -18,7 +18,7 @@ const themeInstance: Theme = {
       darker: "#61280a",
       dark: "#913c0f",
       tinyDark: "#c25014",
-      medium: "#f26419",
+      medium: "#ffa500",
       tinyLight: "#f58347",
       light: "#f7a275",
       lighter: "#fac1a3",

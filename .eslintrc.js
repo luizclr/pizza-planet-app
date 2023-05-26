@@ -39,6 +39,7 @@ module.exports = {
     "newline-per-chained-call": ["error", { ignoreChainWithDepth: 3 }],
     "no-restricted-imports": [2, { patterns: ["../*"] }],
     "no-restricted-modules": [2, { patterns: ["../*"] }],
+    "@typescript-eslint/no-confusing-void-expression": "off",
     "import/order": [
       "error",
       {
