@@ -35,7 +35,7 @@ module.exports = {
     quotes: ["error", "double", { allowTemplateLiterals: true, avoidEscape: true }],
     semi: ["error", "always"],
     "comma-dangle": ["error", "only-multiline"],
-    "max-lines-per-function": ["error", { max: 120 }],
+    "max-lines-per-function": "off",
     "newline-per-chained-call": ["error", { ignoreChainWithDepth: 3 }],
     "no-restricted-imports": [2, { patterns: ["../*"] }],
     "no-restricted-modules": [2, { patterns: ["../*"] }],
