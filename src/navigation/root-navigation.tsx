@@ -81,11 +81,11 @@ const RootNavigation = (): ReactElement => {
 const styles = StyleSheet.create({
   tabNavigator: {
     position: "absolute",
-    bottom: 15,
-    left: 15,
-    right: 15,
+    bottom: 8,
+    left: 8,
+    right: 8,
     elevation: 2,
-    borderRadius: 15,
+    borderRadius: 10,
     height: 50,
   },
 });

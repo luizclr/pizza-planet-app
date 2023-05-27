@@ -1,7 +1,7 @@
 import { ReactElement } from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 
-import { DefaultScreen } from "~/navigation/root-navigation";
+import { Home } from "~/screens/home/home";
 
 type HomeStackParamList = {
   Home: undefined;
@@ -28,8 +28,8 @@ const HomeStack = createStackNavigator<HomeStackParamList>();
 
 const HomeStackScreen = (): ReactElement => {
   return (
-    <HomeStack.Navigator initialRouteName="Home">
-      <HomeStack.Screen name="Home" component={DefaultScreen} />
+    <HomeStack.Navigator screenOptions={{ headerShown: false }} initialRouteName="Home">
+      <HomeStack.Screen name="Home" component={Home} />
     </HomeStack.Navigator>
   );
 };
